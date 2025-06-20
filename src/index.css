@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+.card_box {
+  @apply bg-white rounded-[20px] p-5;
+}
+
+.card_heading_text {
+  @apply text-[20px] font-bold text-[#242331];
+}
+
+.card_text {
+  @apply text-[16px] font-normal text-[#656565];
+}
